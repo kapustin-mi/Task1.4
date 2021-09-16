@@ -8,16 +8,16 @@ public class Main {
     public static void main(String[] args) {
         Locale.setDefault(Locale.ROOT);
 
-        System.out.print("Enter the water temperature in the first vessel (in degrees): ");
+        System.out.print("Enter the water temperature in the first vessel: ");
         double t1 = readCharacteristics();
 
-        System.out.print("Enter the water temperature in the second vessel (in degrees): ");
+        System.out.print("Enter the water temperature in the second vessel: ");
         double t2 = readCharacteristics();
 
-        System.out.print("Enter the volume of water in the first vessel (in litters): ");
+        System.out.print("Enter the volume of water in the first vessel: ");
         double v1 = readCharacteristics();
 
-        System.out.print("Enter the volume of water in the second vessel (in litters): ");
+        System.out.print("Enter the volume of water in the second vessel: ");
         double v2 = readCharacteristics();
       
 
