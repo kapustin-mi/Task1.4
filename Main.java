@@ -5,11 +5,20 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
 
+        System.out.print("Enter the water temperature in the first vessel (in degrees): ");
         double t1 = readCharacteristics();
+
+        System.out.print("Enter the water temperature in the second vessel (in degrees): ");
         double t2 = readCharacteristics();
+
+        System.out.print("Enter the volume of water in the first vessel (in litters): ");
         double v1 = readCharacteristics();
+
+        System.out.print("Enter the volume of water in the second vessel (in litters): ");
         double v2 = readCharacteristics();
+      
 
         double v3 = findTheVolume(v1, v2);
         double t3 = findTemperature(t1, t2, v1, v2);
@@ -23,7 +32,7 @@ public class Main {
         if (scanner.hasNextDouble()) {
             num = scanner.nextDouble();
         } else {
-            System.out.print("Invalid value! Try again.");
+            System.out.print("Invalid value! Try again. ");
             return readCharacteristics();
         }
         return num;
