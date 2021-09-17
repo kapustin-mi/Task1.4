@@ -26,7 +26,6 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         double num;
-
             while (!scanner.hasNextDouble()) {
                 System.out.print("Invalid value! Please, try again: ");
                 scanner.next();
