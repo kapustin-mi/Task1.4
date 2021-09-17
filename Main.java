@@ -42,18 +42,18 @@ public class Main {
     }
     
     private static double findTheVolume(double v1, double v2) {
-        double v3 = v1+v2;
+        double v3 = v1 + v2;
         return v3;
     }
     
     private static double findTemperature(double t1, double t2, double v1, double v2) {
-        double t3 = (t1*v1+t2*v2)/(v1+v2);
+        double t3 = (t1 * v1 + t2 * v2) / (v1 + v2);
         return t3;
     }
     
     private static void printMixCharacteristics(double v3, double t3) {
-        System.out.println("Mixture temperature is: "+t3);
-        System.out.print("The volume of the mixture is: "+v3);
+        System.out.println("Mixture temperature is: " + t3);
+        System.out.print("The volume of the mixture is: " + v3);
     }
 }
 
