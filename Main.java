@@ -23,9 +23,9 @@ public class Main {
 
     private static double readCharacteristics(String dataType) {
         System.out.print("Enter the " + dataType + ": ");
-
         Scanner scanner = new Scanner(System.in);
         double num;
+        
             while(!scanner.hasNextDouble()) {
                 System.out.print("Invalid value! Please, try again: ");
                 scanner.next();
