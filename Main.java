@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) {
         Locale.setDefault(Locale.ROOT);
 
-
         double t1 = readCharacteristics("first temperature");
         double t2 = readCharacteristics("second temperature");
         double v1 = readCharacteristics("first volume");
